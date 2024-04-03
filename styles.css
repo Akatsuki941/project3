@@ -1,0 +1,52 @@
+body {
+  background-color: #191411;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  gap: 88px;
+}
+a {
+  color: aliceblue;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.hero {
+  position: relative;
+}
+.hero-img {
+  position: absolute;
+  top: -30px;
+  right: -286px;
+}
+.hero-content button {
+  background-color: red;
+}
+.hero-content h1 {
+  color: aliceblue;
+  font-size: 120px;
+  line-height: 156px;
+  letter-spacing: 3%;
+}
+.hero-content p {
+  color: aliceblue;
+  font-size: 24px;
+  line-height: 29.4px;
+}
+.hero-content a {
+  background-color: orange;
+}
+.hero-content {
+  width: 680px;
+}
+.fon1{
+  position: absolute;
+}
